@@ -10,7 +10,8 @@ int main() {
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
-    cout << *max_element(arr.begin(), arr.end());
+    cout << "Max element: " << *max_element(arr.begin(), arr.end()) << endl;
+    cout << "Min element: " << *min_element(arr.begin(), arr.end()) << endl;
     return 0;
 
 }
